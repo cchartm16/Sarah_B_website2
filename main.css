@@ -3,10 +3,10 @@
 	margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #C0C0C0;
+    background-color: #17A00C;
 }
 li {
-	float: left;
+	float: right;
 }
 
 li a, .dropbtn {
@@ -18,7 +18,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: black;
+    background-color: #44C0FA;
 }
 
 li.dropdown {
@@ -28,7 +28,7 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #C0C0C0;
+    background-color: #17A00C;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -42,3 +42,21 @@ li.dropdown {
 }
 
 .show {display:block;}
+
+.main-body {
+	background-color: green;
+}
+
+.top-text {
+	z-index: 100;
+	position: absolute;
+	left: 250px;
+	color: white;
+}
+.bottom-text {
+	z-index: 100;
+	position: absolute;
+	right: 250px;
+	margin-top: 300px;
+	color: white;
+}
